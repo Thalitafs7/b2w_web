@@ -22,15 +22,6 @@ img{
   width: 90%;
   margin: 0 5%;
 }
-.overlay{
-  background: rgba(26, 37, 48, 0.5);
-  width: 100%;
-  height: 100%;
-  background-size: inherit;
-}
-.bg-content{
-  background: #23303E;
-}
 .cabecalho{
   padding: 0;
   background: linear-gradient(rgba(26, 37, 48,.5), rgba(26, 37, 48,.5)), url('../img/sobre.jpg') no-repeat center;
@@ -182,23 +173,23 @@ button{
    font-size: 1.5rem;
  }
 }
+
 .pro_solucao{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+   top:0;
 }
 .pro_solucao .item{
   height: 300px;
 	padding-left: 18px;
 	margin: 5px;
 	background: #06eac3;
-	border-radius: 9px;
 }
 .pro_solucao .item h3{
 	font-size: 2rem;
 	padding: 20px;
 	margin: 5px;
-	max-width: 600px;
 	text-align: center
 }
 .pro_solucao .item p{
@@ -219,7 +210,7 @@ button{
 }
 
 
-@media(max-width: 850px){
+@media(max-width: 900px){
  .pro_solucao{
     flex-direction: column;
   }
